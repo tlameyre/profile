@@ -2,22 +2,22 @@
 @import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
 
 body {
-  background: #EEEEEE;
-  color: #303841;
+  background: #E5E5E5;
+  color: #14213D;
   font-family: Raleway;
   font-size: 17px;
 }
 
 a {
   text-decoration: none;
-  color: #303841;
+  color: #14213D;
 }
 a:hover {
-  color: #FF5722;
+  color: #FF7033;
 }
 
 h2 {
-  color: #00ADB5;
+  color: #FF7033;
 }
 
 div {
@@ -28,17 +28,19 @@ img {
   border-radius: 50px;
 }
 
+
+
 .card {
   box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
 }
 .description {
-  background-color: #EEEEA3;
+  background-color: #FFFFF2;
   padding: 40px;
   margin: 20px 0px;
   border-radius: 4px;
 }
 .social {
-  background-color: #EEEEA3;
+  background-color: #FFFFF2;
   padding: 8px;
   margin: 20px 0px;
   border-radius: 4px;
@@ -54,6 +56,8 @@ img {
 .list-inline {
   list-style: none;
   padding-left: 0px;
+  font-size: 2em;
+  margin: 10px 0px;
 }
 
 .list-inline > li {
@@ -61,17 +65,17 @@ img {
   padding: 0px 20px;
 }
 
-.btn-medium {
-  background-color: #FF5722;
+.btn-discover {
+  background-color: #FF7033;
   color: white;
   padding: 15px 20px;
   border-radius: 4px;
   }
 
-.btn-medium:hover {
-  background-color: #FF824D;
+.btn-discover:hover {
+  background-color: #14213D;
   text-decoration: none;
-  color: #EEEEEE;
+  color: #FFFFF2;
 }
 
 /* Custom design with class (99% of your design) */
